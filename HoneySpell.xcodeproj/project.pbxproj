@@ -14,6 +14,7 @@
 		488C9BF92237411400DA9BEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488C9BF72237411400DA9BEE /* LaunchScreen.storyboard */; };
 		488C9C042237411500DA9BEE /* HoneySpellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488C9C032237411500DA9BEE /* HoneySpellTests.swift */; };
 		488C9C0F2237411500DA9BEE /* HoneySpellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488C9C0E2237411500DA9BEE /* HoneySpellUITests.swift */; };
+		488C9C1E223743C900DA9BEE /* LetterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488C9C1D223743C900DA9BEE /* LetterButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		488C9C0A2237411500DA9BEE /* HoneySpellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneySpellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		488C9C0E2237411500DA9BEE /* HoneySpellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneySpellUITests.swift; sourceTree = "<group>"; };
 		488C9C102237411500DA9BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488C9C1D223743C900DA9BEE /* LetterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				488C9BEE2237411200DA9BEE /* AppDelegate.swift */,
-				488C9BF02237411200DA9BEE /* ViewController.swift */,
-				488C9BF22237411300DA9BEE /* Main.storyboard */,
 				488C9BF52237411400DA9BEE /* Assets.xcassets */,
-				488C9BF72237411400DA9BEE /* LaunchScreen.storyboard */,
 				488C9BFA2237411500DA9BEE /* Info.plist */,
+				488C9BF72237411400DA9BEE /* LaunchScreen.storyboard */,
+				488C9C1C223743B100DA9BEE /* Letter Buttons */,
+				488C9BF22237411300DA9BEE /* Main.storyboard */,
+				488C9BF02237411200DA9BEE /* ViewController.swift */,
 			);
 			path = HoneySpell;
 			sourceTree = "<group>";
@@ -123,6 +126,14 @@
 				488C9C102237411500DA9BEE /* Info.plist */,
 			);
 			path = HoneySpellUITests;
+			sourceTree = "<group>";
+		};
+		488C9C1C223743B100DA9BEE /* Letter Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				488C9C1D223743C900DA9BEE /* LetterButton.swift */,
+			);
+			path = "Letter Buttons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				488C9C1E223743C900DA9BEE /* LetterButton.swift in Sources */,
 				488C9BF12237411200DA9BEE /* ViewController.swift in Sources */,
 				488C9BEF2237411200DA9BEE /* AppDelegate.swift in Sources */,
 			);
